@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-25",
+  "collection": {
+    "id": "plumbing-licensing",
+    "name": "Plumbing Licensing",
+    "tagline": "Plumbing, in one line.",
+    "topic": "Plumbing licensing for plumbing apprentices and journeyman exam candidates",
+    "audience": "Plumbing apprentices and journeyman exam candidates",
+    "level": "intro",
+    "jurisdiction": "US",
+    "disclaimer": "Educational vocabulary only; not plumbing advice or code compliance guidance."
+  },
+  "coverage": {
+    "sections": 1,
+    "subjects": 5,
+    "definitions": 206,
+    "sources": 8
+  },
+  "semesters": [
+    {
+      "id": "core",
+      "label": "Core",
+      "status": "complete",
+      "subjects": [
+        {
+          "id": "water-supply",
+          "name": "Water Supply Systems",
+          "shortName": "Water supply",
+          "code": "",
+          "courseType": "core",
+          "data": "data/subjects/water-supply.json",
+          "definitionCount": 42,
+          "unitCount": 5,
+          "coveredUnits": 5,
+          "status": "complete"
+        },
+        {
+          "id": "drain-waste-vent",
+          "name": "Drain-Waste-Vent",
+          "shortName": "Drain-waste-vent",
+          "code": "",
+          "courseType": "core",
+          "data": "data/subjects/drain-waste-vent.json",
+          "definitionCount": 42,
+          "unitCount": 5,
+          "coveredUnits": 5,
+          "status": "complete"
+        },
+        {
+          "id": "traps-and-vents",
+          "name": "Traps and Vents",
+          "shortName": "Traps and vents",
+          "code": "",
+          "courseType": "core",
+          "data": "data/subjects/traps-and-vents.json",
+          "definitionCount": 40,
+          "unitCount": 5,
+          "coveredUnits": 5,
+          "status": "complete"
+        },
+        {
+          "id": "backflow-fixtures",
+          "name": "Backflow and Fixtures",
+          "shortName": "Backflow and fixtures",
+          "code": "",
+          "courseType": "core",
+          "data": "data/subjects/backflow-fixtures.json",
+          "definitionCount": 42,
+          "unitCount": 5,
+          "coveredUnits": 5,
+          "status": "complete"
+        },
+        {
+          "id": "plumbing-code",
+          "name": "Plumbing Code",
+          "shortName": "Plumbing code",
+          "code": "",
+          "courseType": "core",
+          "data": "data/subjects/plumbing-code.json",
+          "definitionCount": 40,
+          "unitCount": 5,
+          "coveredUnits": 5,
+          "status": "complete"
+        }
+      ]
+    }
+  ]
+}
